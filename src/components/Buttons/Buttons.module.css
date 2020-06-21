@@ -1,0 +1,47 @@
+.btn {
+  background-image: linear-gradient(
+    to bottom,
+    rgb(99, 211, 255),
+    rgb(100, 204, 251),
+    rgb(100, 198, 246),
+    rgb(101, 191, 242),
+    rgb(102, 184, 238),
+    rgb(102, 178, 233),
+    rgb(103, 171, 229),
+    rgb(103, 165, 224),
+    rgb(104, 158, 220),
+    rgb(105, 151, 216),
+    rgb(105, 145, 211),
+    rgb(106, 138, 207)
+  );
+  width: 70px;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  text-transform: capitalize;
+  font-size: 15px;
+}
+.btn:hover {
+  box-shadow: 0 0 5px 1px #87ceeb;
+}
+.btn:active {
+  background-image: linear-gradient(
+    to top,
+    rgb(99, 211, 255),
+    rgb(100, 204, 251),
+    rgb(100, 198, 246),
+    rgb(101, 191, 242),
+    rgb(102, 184, 238),
+    rgb(102, 178, 233),
+    rgb(103, 171, 229),
+    rgb(103, 165, 224),
+    rgb(104, 158, 220),
+    rgb(105, 151, 216),
+    rgb(105, 145, 211),
+    rgb(106, 138, 207)
+  );
+}
+.wrapper {
+  display: flex;
+  justify-content: space-around;
+}
